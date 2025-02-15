@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-blue-100 text-gray-800">
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-gray-800">My Portfolio</a>
+            <nav class="space-x-4">
+                <a href="#home" class="text-gray-800 hover:text-gray-600">Home</a>
+                <a href="#about" class="text-gray-800 hover:text-gray-600">About</a>
+                <a href="#resume" class="text-gray-800 hover:text-gray-600">Resume</a>
+                <a href="#portfolio" class="text-gray-800 hover:text-gray-600">Portfolio</a>
+                <a href="#blog" class="text-gray-800 hover:text-gray-600">Blog</a>
+                <a href="#contact" class="text-gray-800 hover:text-gray-600">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="bg-cover bg-center h-screen" style="background-image: url('image-4.jpg')"> 
+        <div class="flex items-center justify-center h-full bg-gray-900 bg-opacity-50">
+            <div class="text-center">
+                <h1 class="text-white text-5xl font-bold">Welcome to My Portfolio</h1>
+                <p class="text-white text-xl mt-4">I am a experience technology Coach</p>
+                <a href="#contact" class="mt-6 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center">About Me</h2>
+            <div class="mt-8 flex flex-col md:flex-row items-center">
+                <img src="A. Hafidz.jpg" alt="A professional headshot of me" class="w-64 h-64 rounded-full mx-auto md:mx-0">
+                <div class="mt-6 md:mt-0 md:ml-6">
+                    <p class="text-lg">Hello! I'm a passionate tech coach with almost 5 years of experience in empowering individuals and teams in the tech industry. I specialize in mentoring and guiding learners in adopting new technologies and best practices.</p>
+                    <p class="mt-4 text-lg">I love fostering a growth mindset and I'm always eager to help others enhance their skills. When I'm not coaching, I enjoy hiking, reading, and spending time with my family.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center">Resume</h2>
+            <div class="mt-8">
+                <h3 class="text-2xl font-bold">Experience</h3>
+                <div class="mt-4">
+                    <div class="bg-white p-6 rounded shadow-md mb-4">
+                        <h4 class="text-xl font-bold">Senior Coach - Leader Technology</h4>
+                        <p class="text-gray-600">Orbit Future Academy | 2020 - Present</p>
+                        <p class="mt-2">Developed and maintained various teaching modules and learning materials, collaborated with cross-functional teams.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded shadow-md mb-4">
+                        <h4 class="text-xl font-bold">Technical Network Support Engineer</h4>
+                        <p class="text-gray-600">Cahaya Arif Abadi | 2017 - 2019</p>
+                        <p class="mt-2">Managing software and hardware installations, maintaining software and hardware performance, marketing support.</p>
+                    </div>
+                </div>
+
+                <h3 class="text-2xl font-bold mt-8">Education</h3>
+                <div class="mt-4">
+                    <div class="bg-white p-6 rounded shadow-md mb-4">
+                        <h4 class="text-xl font-bold">Bachelor in Information Technology</h4>
+                        <p class="text-gray-600">Budi Luhur University | 2011 - 2017</p>
+                        <p class="mt-2">Graduated with honors, specialized in web development and IOT.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center">Portfolio</h2>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded shadow-md">
+                    <img src="project-1-ogm.jpg" alt="Screenshot of Project 1" class="w-full h-48 object-cover rounded">
+                    <h3 class="text-xl font-bold mt-4">Project 1</h3>
+                    <p align="justify" class="mt-2">Coaching | This project shares a knowledge about delivering classes digitally based on 21st century learning from Microsoft with me as the trainer.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow-md">
+                    <img src="project-2-AI.jpg" alt="Screenshot of Project 2" class="w-full h-48 object-cover rounded">
+                    <h3 class="text-xl font-bold mt-4">Project 2</h3>
+                    <p align="justify" class="mt-2">Artificial Intelligence | An AI python application project that can be implemented in to various programs and run in any platform.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow-md">
+                    <img src="project-3-web.jpg" alt="Screenshot of Project 3" class="w-full h-48 object-cover rounded">
+                    <h3 class="text-xl font-bold mt-4">Project 3</h3>
+                    <p align="justify" class="mt-2">Website | A website project that features an attractive hero image and simple navigation for services, about us, and contact. Built with HTML, CSS, and JavaScript, the site is responsive and has a prominent “Order Now!” button to increase customer engagement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center">Blog</h2>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded shadow-md">
+                    <img src="blog-1.jpg" alt="Blog post thumbnail 1" class="w-full h-48 object-cover rounded">
+                    <h3 class="text-xl font-bold mt-4">Blog Post 1</h3>
+                    <p align="justify" class="mt-2">This article is emphasizing the importance of mindful decision-making, highlighting that every choice impacts our relationships and those around us. It contrasts human awareness with robotic behavior, urging us to reflect on the consequences of our actions. By prioritizing quality time with loved ones and considering the effects of our choices, we can foster stronger connections and create a positive impact. Ultimately, it encourages making thoughtful decisions that enrich both our lives and the lives of others.</p>
+                    <a href="https://theblackspotz.blogspot.com/2024/11/perjalanan-hati.html" class="text-blue-500 hover:underline mt-4 block">Read More</a>
+                </div>
+                <div class="bg-white p-6 rounded shadow-md">
+                    <img src="blog-2.jpg" alt="Blog post thumbnail 2" class="w-full h-48 object-cover rounded">
+                    <h3 class="text-xl font-bold mt-4">Blog Post 2</h3>
+                    <p align="justify" class="mt-2">This article discusses “cyberpreneurship,” highlighting the role of technology and the internet for entrepreneurs to build businesses. It emphasizes opportunities for innovation and creativity, such as selling handmade products or offering online courses. Despite the challenges of digital marketing and networking, the author emphasizes the importance of perseverance and community support. The goal is to share insights through the blog, encouraging others to explore the potential of cyberpreneurship.</p>
+                    <a href="https://theblackspotz.blogspot.com/2024/11/cyberpreneur.html" class="text-blue-500 hover:underline mt-4 block">Read More</a>
+                </div>
+                <div class="bg-white p-6 rounded shadow-md">
+                    <img src="blog-3.jpg" alt="Blog post thumbnail 3" class="w-full h-48 object-cover rounded">
+                    <h3 class="text-xl font-bold mt-4">Blog Post 3</h3>
+                    <p align="justify" class="mt-2">This article discusses on how to earn money online and addresses common skepticism. It outlines five steps for success: choose a niche that aligns with your interests, create a blog or newsletter to share knowledge and build credibility, drive traffic to your site, foster relationships with your audience to build trust, and develop your own products or services to create value. By following these steps, individuals can effectively leverage the internet for financial success.</p>
+                    <a href="https://theblackspotz.blogspot.com/2011/12/cyberpreneurship.html" class="text-blue-500 hover:underline mt-4 block">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center">Contact Me</h2>
+		    <br></br>
+                    <h3 class="text-xl font-bold text-center">Get in Touch</h3>
+                    <p align= "center" class="mt-4">Feel free to reach out to me for any inquiries or collaborations. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    <p align= "center" class="mt-4"><i class="fas fa-envelope"></i>hafidzmurtono@gmail.com</p>
+                    <p align= "center" class="mt-2"><i class="fas fa-phone"></i> +6281775724797</p>
+                    <p align= "center" class="mt-2"><i class="fas fa-map-marker-alt"></i> Casa De' Cimanggis - 93E, Depok, Indonesia</p>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 My-Portfolio@hafid77. All rights reserved.</p>
+            <div class="mt-4 space-x-4">
+                <a href="https://www.tiktok.com/@hafid77277?_t=8rbBTrKmski&_r=1" class="text-white hover:text-gray-400"><i class="fab fa-tiktok"></i></a>
+                <a href="https://x.com/huffveedz77?t=w9Rw-2kZ43lGS0PndmuC9w&s=08" class="text-white hover:text-gray-400"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/abdul-hafidz-murtono" class="text-white hover:text-gray-400"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.github.com/hafid2130" class="text-white hover:text-gray-400"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
